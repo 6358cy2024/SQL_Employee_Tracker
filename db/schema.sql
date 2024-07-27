@@ -1,4 +1,4 @@
-\c postgress;
+\c postgres;
 
 DROP DATABASE IF EXISTS employees_app_db;
 
