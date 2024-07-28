@@ -12,11 +12,16 @@ async function showMainMenu() {
     })
     switch (answerObj.choice) {
         case 'View Departments':
-            await MenuSystem.showAllEmployees();
+            await MenuSystem.showAllDepartments();
+            showMainMenu();
+            
+        case 'View Roles':
+            await MenuSystem.showAllRoles();
             showMainMenu();
         case 'View Employees':
             await MenuSystem.showAllEmployees();
             showMainMenu();
+            
     }
 
 }
