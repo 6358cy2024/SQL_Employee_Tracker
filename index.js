@@ -14,14 +14,20 @@ async function showMainMenu() {
         case 'View Departments':
             await MenuSystem.showAllDepartments();
             showMainMenu();
-            
         case 'View Roles':
             await MenuSystem.showAllRoles();
             showMainMenu();
         case 'View Employees':
             await MenuSystem.showAllEmployees();
             showMainMenu();
-            
+        case 'Add Department':
+            showMainMenu();
+        case 'Add Role':
+            showMainMenu();
+        case 'Add Employee':
+            showMainMenu();
+        case 'Update Employee':
+            showMainMenu();
     }
 
 }
