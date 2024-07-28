@@ -4,7 +4,7 @@ DROP DATABASE IF EXISTS employees_app_db;
 
 CREATE DATABASE employees_app_db;
 
-\c employees_app_db
+\c employees_app_db;
 
 CREATE TABLE department (
     id SERIAL PRIMARY KEY,

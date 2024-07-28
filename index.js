@@ -14,6 +14,9 @@ async function showMainMenu() {
         case 'View Departments':
             await MenuSystem.showAllEmployees();
             showMainMenu();
+        case 'View Employees':
+            await MenuSystem.showAllEmployees();
+            showMainMenu();
     }
 
 }
